@@ -7,7 +7,7 @@ body {
    font-family: Roboto, sans-serif;
  }
 
- /* --- Clean-up list items and links --- */
+ /* ---  CLEAN-UP   LINKS & LISTS  --- */
  ul {
    list-style: none;
  }
@@ -17,7 +17,7 @@ body {
  }
 
  
- /* --- Header  Section --- */
+ /* ---  HEADER   SECTION  --- */
  .header{
     display:flex;
     flex-flow: row;
@@ -57,7 +57,7 @@ body {
    color:white;
  }
 
- /* --- First  Section --- */
+ /* ---  FIRST   SECTION  --- */
 
  .first-part {
    display:flex;
@@ -66,7 +66,7 @@ body {
  }
 
   /* First-Left Section */
-  .first-left {
+  .first-section {
    display:flex;
    flex-flow: column;
    gap: 12px;
@@ -79,7 +79,7 @@ body {
    box-shadow:1px 1px 5px 1px rgb(255, 255, 255);
  }
 
- .first-left h2 {
+ .first-section h2 {
    display:flex;
    width:500px;
    font-weight: 800;
@@ -87,11 +87,11 @@ body {
    margin: 0px;
  }
 
- .first-left div {
+ .first-section div {
    font-size: 20px;
  }
 
- .first-left button {
+ .first-section button {
    margin-top:auto;
    width: 150px;
    padding: 10px;
@@ -115,4 +115,23 @@ body {
 
  .first-right img {
    box-shadow:1px 1px 5px 1px rgb(255, 255, 255);
+}
+
+ /* ---  MEAT/MIDDLE   SECTION  --- */
+
+.meat-section {
+   display:flex;
+
+}
+
+.title {
+
+}
+
+.images-section {
+
+}
+
+.images-section img {
+
 }
