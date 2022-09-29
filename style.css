@@ -131,7 +131,7 @@ body {
    font-weight: 800;
    font-size: 28px;
 }
-.images-section {
+.images-section { 
    display:flex;
    justify-content:space-between;
    background-color: blue;
