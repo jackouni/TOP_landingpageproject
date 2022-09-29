@@ -2,8 +2,8 @@ body {
    display:flex;
    flex-flow:column ;
    height: 100vh; 
+   width: 100vw;
    margin: 0;
-   overflow: hidden;
    font-family: Roboto, sans-serif;
  }
 
@@ -22,16 +22,19 @@ body {
     display:flex;
     flex-flow: row;
 
-    background-color:#3D5249;
+    background-color:#1f2836;
     height: 50px;
     justify-content: space-between;
     padding-bottom:30px;
+    width: 100vw;
  }
 
  .dogsite {
-   display:flex;
-   justify-content: flex-start;
-   padding:8px;
+  display:flex;
+  height: fit-content;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding:10px;
+  padding-left: 20px;
 
 /*  Font Style  */
    color: aliceblue;
@@ -57,12 +60,16 @@ body {
    color:white;
  }
 
- /* --- First  Section --- */
+ /* ---  FIRST  SECTION  --- */
 
  .first-part {
    display:flex;
-   background-color:#3D5249;
+   background-color:#1f2836;
    height: 400px;
+   justify-content: space-around;
+   align-items:center;
+   padding: 40px;
+   width: 100vw;
  }
 
   /* First-Left Section */
@@ -72,16 +79,12 @@ body {
    gap: 20px;
    padding: 20px;
    height: 220px;
-   width: 720px;
-   background-color: #6B9080;
-   border-radius: 15px;
-   margin:40px;
-   box-shadow:1px 1px 5px 1px rgb(255, 255, 255);
+   width: 500px;
+   background-color: #1f2836;
  }
 
  .first-left h2 {
    display:flex;
-   width:500px;
    font-weight: 800;
    font-size: 32px;
    color: white;
@@ -97,22 +100,21 @@ body {
    margin-top:auto;
    width: 150px;
    padding: 10px;
-   background-color: rgb(72, 105, 255);
+   background-color: #3a83f6;
    color: white;
    height:auto;
    font-size: large;
    border-style: none;
-   border-radius: 8px;
-   border: 3px solid black;
+   border-radius: 6px;
+   box-shadow:1px 1px 5px 1px rgb(255, 255, 255);
 
  }
 
   /* First-Right Section */
 
  .first-right {
-   max-width: fit-content;
-   max-height: 100px;
-   margin-top:25px;
+   max-height:252px;
+
  }
 
  .first-right img {
@@ -122,26 +124,121 @@ body {
  /* ---  MEAT/MIDDLE   SECTION  --- */
 
 .meat-section {
-   display:flex;
-   flex-flow:column;
-   align-items:center;
+  display:flex;
+  flex-flow:column;
+  align-items:center;
+  background-color: #ffffff;
+  margin-bottom: 200px;
+  width: 100vw;
+  margin-top: 40px;
+
 }
 
 .title {
-   font-weight: 800;
-   font-size: 28px;
+  font-weight: 800;
+  font-size: 32px;
 }
 .images-section { 
-   display:flex;
-   justify-content:space-between;
-   background-color: blue;
-   width: 1350px;
-   height: 250px;
+  display:flex;
+  justify-content:space-around;
+  width: 100vw;
+  height: 300px;
 }
 
 .img1, .img2, .img3, .img4 {
-   width:300px;
-   height:300px;
-   border:2px solid black;
-
+  width:300px;
+  height:300px;
+  border:4px solid #3a83f6;
+  border-radius:15px;
+   background-color: white;
 }
+
+.team-desc {
+  display:flex;
+  justify-content: space-around;
+  gap: 50px;
+  width: 100vw;
+  margin-top: 20px;
+}
+
+.desc1, .desc2, .desc3, .desc4 {
+  text-align: center;
+  font-size: 18px;
+  width:300px;
+}
+
+/* ---  INSPIRING QUOTE   SECTION  --- */
+
+.inspiring-quote {
+display: flex;
+width:100vw;
+flex-flow:column;
+align-items: center;
+background-color:#e4e7ea;
+padding-top: 40px;
+padding-bottom: 40px;
+}
+
+.inspiring-quote p {
+  width: 700px;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 100;
+}
+
+.inspiring-quote div {
+  width:700px;
+  font-size: 20px;
+  text-align: end;
+}
+
+/* ---  CALL TO ACTION   SECTION  --- */
+.call-to-action {
+  display:flex;
+  flex-flow: column;
+  background-color: white;
+  padding: 100px;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  background-color:#3a83f6 ;
+  color: white;
+  gap: 60px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top:30px;
+  padding-bottom: 30px;
+  border-radius: 8px;
+}
+
+.contact-us {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.card button {
+  height: 30px;
+  width: fit-content;
+  color: white;
+  background-color: #3a83f6;
+  border: 1px solid white;
+  border-radius: 6px;
+}
+
+.footer {
+  display: flex;
+  width: 100vw;
+  padding: 30px;
+  background-color: #1f2836;
+  justify-content: center;
+  color: white;
+  font-size: small;
+}
+
+
+
